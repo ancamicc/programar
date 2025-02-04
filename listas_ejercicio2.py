@@ -8,5 +8,5 @@ def buscar_palindromo(lista):
             return
     print("No existe")
 entrada = input("Ingrese las palabras separadas por espacios: ")
-la_lista = entrada.split()
-buscar_palindromo(la_lista)
+list = entrada.split()
+buscar_palindromo(list)
